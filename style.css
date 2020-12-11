@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+*{
+    margin: 0;
+}
+body{
+    font-family: 'PT Serif', serif;
+}
+header nav{
+    padding: 16px 24px;
+    margin: 0 0 16px;
+    box-shadow: 0 0 4px rgba(36, 36, 36, 0.377);
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+header nav ul div:nth-child(2){
+    display: flex;
+    
+}
+header nav ul div:nth-child(2) li a{
+    margin: 0 8px;
+    color: black;
+    
+}
+header nav ul div:nth-child(2) li {
+    padding: 8px;
+}
+header nav ul div:nth-child(2) div li a{
+    text-decoration: none;
+    border: 1px solid blue;
+    color: blue;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+}
+header nav ul div:nth-child(2) div li a:hover{
+    background-color: blue;
+    color: white;
+}
+header nav ul div:nth-child(1) li{
+    font-size: 20px;
+}
+header nav ul li{
+    list-style-type: none;
+}
